@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lemon&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Salsa&display=swap');
+
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#img img{
+  height: 50vw;
+  width: 50vw;
+  object-fit: cover;
+}
+
+#text h1, p{
+  text-align: center;
+}
+#text p{
+  font-size: 3vw;
+  opacity: 0.3;
+}
+
+#text h1{
+  font-size: 10vw;
+}
+
+#inputs{
+  margin-top: 3vw;
+  display:flex;
+  flex-direction: column;
+  gap: 4vw;
+}
+#inputs input{
+  border-radius: 20vw ;
+  border: 1px solid black;
+  height: 13vw;
+  width: 75vw;
+  font-size: 4.5vw;
+  padding:4vw;
+  padding-inline: 10vw;
+}
+input::placeholder{
+  font-size: 4vw;
+  
+}
+
+#email{
+  background-image: url(image/email.svg);
+  background-repeat: no-repeat;
+  background-position: 3vw 8.8vw;
+  background-size: 5vw;
+}
+
+#password{
+  background-image: url(image/pass.svg);
+  background-repeat: no-repeat;
+  background-position: 3vw 7vw;
+  background-size: 6vw;
+  
+}
+
+.bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#button{
+  display:flex;
+  justify-content: center;
+}
+
+.info p{
+  text-align: center;
+  margin-top: 1.5vw;
+  font-size:3vw;
+}
+
+#social-media{
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  scale:1.5;
+  margin-top: 5vw;
+ 
+}
+
+#social-media img{
+  height: 2vw;
+  width: 2vw;
+  
+}
+#ig{
+  scale: 1.2
+  
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom{
+  margin:20vw;
+}
+
+#button button{
+  background-color: #6F7AE3;
+  border: none;
+  color: #fff;
+  height: 12vw;
+  width: 50vw;
+  font-size: 6vw;
+  border-radius: 5vw;
+  margin-bottom: 8px;
+}
